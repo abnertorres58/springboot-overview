@@ -28,13 +28,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<!-- Add support for automatic reloading-->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>5.3.19</version>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
-
 	</dependencies>
 
 	<build>
